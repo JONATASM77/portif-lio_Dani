@@ -1,0 +1,15 @@
+PORTFÓLIO DANIELLE VITÓRIA
+
+Arquivos:
+- index.html: estrutura do site
+- style.css: cores, layout e responsividade
+- script.js: interações e animações
+- assets/: foto usada no portfólio
+
+Como abrir:
+1. Extraia a pasta do ZIP.
+2. Abra a pasta no Visual Studio Code (Arquivo > Abrir Pasta).
+3. Abra index.html no navegador. Se tiver a extensão Live Server, clique com o botão direito em index.html e escolha Open with Live Server.
+4. Para editar, altere o arquivo correspondente e salve.
+
+Mantenha os nomes e a estrutura da pasta assets para que a foto continue aparecendo.

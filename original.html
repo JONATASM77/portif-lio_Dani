@@ -1,0 +1,131 @@
+
+        <div
+          class="mindmap reveal"
+          role="group"
+          aria-label="Mapa mental de áreas de interesse"
+        >
+
+
+
+<!-- 1 (UX)-->
+          <button class="mind-node node-ux" data-interest="ux"> 
+            <span class="node-icon">⌕</span
+            ><span
+              ><span class="node-title">UX Research</span
+              ><span class="node-sub">pessoas e experiências</span></span
+            ></button
+          >
+          
+          <!-- 2 (PSICOLOGIA ORGANIZACIONAL)-->
+           
+          <button class="mind-node node-design" data-interest="design">
+            <span class="node-icon">✳</span
+            ><span
+              ><span class="node-title">Design</span
+              ><span class="node-sub">ideias que ganham forma</span></span
+            ></button
+          >
+          
+          <!-- 3 (PSICOLOGIA HOSPITALAR) -->
+          <button class="mind-node node-sport" data-interest="sport">
+            <span class="node-icon">↗</span
+            ><span
+              ><span class="node-title">Psicologia do Esporte</span
+              ><span class="node-sub">mente, corpo e desempenho</span></span
+            >
+          </button>
+
+          <!-- Centro (ponto de partida)-->
+          <div class="node-center">
+            <span class="flower">✳</span><b>Psicologia</b
+            ><small>meu ponto de partida</small>
+          </div>
+
+          <!-- 4 (PSICOLOGIA DO ESPORTE)-->
+          <button class="mind-node node-hospital" data-interest="hospital">
+            <span class="node-icon">＋</span
+            ><span
+              ><span class="node-title">Psicologia Hospitalar</span
+              ><span class="node-sub">cuidado em saúde</span></span
+            ></button
+          >
+          
+          <!-- 5 (PSICOLOGIA MILITAR) -->
+          <button class="mind-node node-military" data-interest="military">
+            <span class="node-icon">✧</span
+            ><span
+              ><span class="node-title">Psicologia Militar</span
+              ><span class="node-sub"
+                >pessoas em contextos operacionais</span
+              ></span
+            ></button
+          >
+          
+          <!-- 6 (DESIGN)-->
+          <button class="mind-node node-rh" data-interest="rh">
+            <span class="node-icon">▤</span
+            ><span
+              ><span class="node-title">RH · Administrativo</span
+              ><span class="node-sub"
+                >pessoas, processos e organização</span
+              ></span
+            >
+          </button>
+        </div>
+
+
+        <!-- temos que alterar as classes e divs
+         
+            1 classe = class="mind-node node-design
+            2 div= data-interest="design">
+            3 classe =  <span class="node-icon">✳</span>
+            4 classe =  ><span class="node-title">Design</span
+              >
+            5 classe =<span class="node-sub">ideias que ganham forma</span></span
+        -->
+
+
+
+        const interests = {
+  ux: {
+    n: "01",
+    k: "Área de interesse · 01",
+    title: "UX Research",
+    text: "Investigar como as pessoas usam produtos e serviços, compreender suas necessidades e transformar descobertas em experiências mais claras, acessíveis e úteis. Interessa-me a conexão entre comportamento humano, pesquisa e tecnologia.",
+    tags: ["pesquisa com usuários", "comportamento", "tecnologia"],
+  },
+  design: {
+    n: "02",
+    k: "Área de interesse · 02",
+    title: "Design",
+    text: "Explorar como a linguagem visual, a hierarquia da informação e as escolhas de interface influenciam a compreensão de uma mensagem. Quero aprofundar a relação entre criatividade, acessibilidade e necessidades reais das pessoas.",
+    tags: ["comunicação visual", "acessibilidade", "criatividade"],
+  },
+  sport: {
+    n: "03",
+    k: "Área de interesse · 03",
+    title: "Psicologia do Esporte",
+    text: "Compreender aspectos psicológicos relacionados à prática esportiva, como motivação, foco, trabalho em equipe, confiança e manejo da pressão. É uma área que une comportamento, saúde e desempenho.",
+    tags: ["motivação", "desempenho", "trabalho em equipe"],
+  },
+  hospital: {
+    n: "04",
+    k: "Área de interesse · 04",
+    title: "Psicologia Hospitalar",
+    text: "Conhecer as formas de cuidado psicológico em contextos de saúde, considerando pacientes, familiares e equipes. Interessa-me o acolhimento em momentos de vulnerabilidade e a atuação integrada entre profissionais.",
+    tags: ["cuidado em saúde", "acolhimento", "equipe multiprofissional"],
+  },
+  military: {
+    n: "05",
+    k: "Área de interesse · 05",
+    title: "Psicologia Militar",
+    text: "Investigar a atuação da Psicologia em contextos militares e operacionais, incluindo adaptação, relações de equipe, fatores humanos, saúde mental e exigências específicas do serviço. É um campo que desejo conhecer melhor durante minha formação.",
+    tags: ["fatores humanos", "adaptação", "contexto operacional"],
+  },
+  rh: {
+    n: "06",
+    k: "Experiência e interesse · 06",
+    title: "RH · Administrativo",
+    text: "Uma área que já faz parte da minha trajetória por meio da experiência como Jovem Aprendiz em RH Generalista na Eurofarma e do contato atual com rotinas administrativas na recepção. Quero continuar desenvolvendo organização de processos, comunicação e compreensão da experiência das pessoas no ambiente de trabalho.",
+    tags: ["RH generalista", "rotinas administrativas", "processos e pessoas"],
+  },
