@@ -31,7 +31,7 @@ const startPreloader = () => {
     strokeDashoffset: reducedMotion ? 0 : pathLength,
   });
   gsap.set(brainSvg, {
-    clipPath: reducedMotion ? "inset(0 0 0 0)" : "inset(100% 0 0 0)",
+  clipPath: "inset(0 0 0 0)",
   });
   gsap.set(loadingBar, {
     clipPath: reducedMotion ? "inset(0 0 0 0)" : "inset(0 100% 0 0)",

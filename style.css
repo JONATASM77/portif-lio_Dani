@@ -44,6 +44,8 @@ html.preloader-lock body {
   position: fixed;
   inset: 0;
   z-index: 100;
+  visibility: visible;
+  opacity: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,11 +54,18 @@ html.preloader-lock body {
   background: #f4f0e7;
 }
 .preloader-brain {
+  display: block;
+  width: 120px;
+  height: auto;
+  overflow: visible;
+  clip-path: inset(0 0 0 0);
+}
+/*.preloader-brain {
   width: 120px;
   height: auto;
   overflow: visible;
   clip-path: inset(100% 0 0 0);
-}
+}*/
 .preloader-brain path {
   fill: none;
   stroke: #000;
